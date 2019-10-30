@@ -33,9 +33,18 @@ console.log(`You will need ${totalSnack} snack to last you until the ripe old ag
 let radius = 10;
 const pi = 3.14; 
 let circumference = 2 * pi * radius;
+let area = pi * radius * radius;
 
-console.log(`The area is ${circumference}.`)
-
+console.log(`The circumference is ${circumference}.`)
+console.log(`The area is ${area}.`)
 
 //EXERCISE 5: The Temperature Converter
 //It's hot out! Let's make a converter based on the steps here. Store a celsius temperature into a variable. Convert it to fahrenheit and output "NN°C is NN°F".  Now store a fahrenheit temperature into a variable. Convert it to celsius and output "NN°F is NN°C."
+
+let tempInCelsius = 24;
+let tempInFahrenheit = 90;
+let celsiusToFahr = (tempInCelsius * 9/5) + 32;
+let fahrToCelsius = ( tempInFahrenheit - 32) * 5/9;
+
+console.log(`${celsiusToFahr} degree F.`)
+console.log(`${fahrToCelsius} degree C.`)
