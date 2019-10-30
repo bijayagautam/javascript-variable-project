@@ -6,7 +6,7 @@ let geographicLocation = `Toronto`;
 let annualSlary = `CAD $120K`;
 let companyName = `TD Bank`;
 
-console.log(`You will be a ${jobTitle} in ${geographicLocation}, making ${annualSlary} for ${companyName} .`);
+console.log(`You will be a ${jobTitle} in ${geographicLocation}, making ${annualSlary} for ${companyName}.`);
 
 
 //EXERCISE 2: The Age Calculator
